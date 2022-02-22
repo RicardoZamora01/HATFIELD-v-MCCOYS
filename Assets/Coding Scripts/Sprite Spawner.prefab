@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6003480591807645066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6003480591807645064}
+  - component: {fileID: 6003480591807645065}
+  m_Layer: 0
+  m_Name: Sprite Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6003480591807645064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6003480591807645066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.071455, y: 5.5027294, z: -5.314786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6003480591807645065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6003480591807645066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5fbe72143f44c3abf2a9b4715969c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  haystack: {fileID: 487252398188914698, guid: e49aa89faffd74cb9b77ff40edfce4cd, type: 3}
+  crops: {fileID: 6753064614551017630, guid: f91d7c242adea415eb268336822d17ce, type: 3}
+  waterWell: {fileID: 3525738610932269928, guid: 9f5dd80b0234a425687ddc9459799649, type: 3}
+  trench: {fileID: 1769568864654158307, guid: 0bd88fe050c7c4eb3adc550ac604f7a9, type: 3}
+  tractorLeft: {fileID: 4285862155101236993, guid: 4c802c9a2fd954e6f8b49c85db4d2c89, type: 3}
+  tractorRight: {fileID: 3293797249969195070, guid: 89740545e34b84227813fe6d2dca10cb, type: 3}

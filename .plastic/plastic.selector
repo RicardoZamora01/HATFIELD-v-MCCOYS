@@ -1,0 +1,4 @@
+repository "HACKATHON HATFIELD v MCCOYS@IDEA350_Spring_2022@cloud"
+  path "/"
+    br "/main"
+    co "/main"
